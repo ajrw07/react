@@ -4,22 +4,22 @@ export default function Test1() {
             <h1 className="text-lg font-bold">
                 Implement the state queue.
             </h1>
-            <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-                <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    In this challenge, you will reimplement a tiny part of React from scratch!
-                    It’s not as hard as it sounds. This exercise is to test your basic react
-                    javascript skills.
+            <div className="z-10 w-full max-w-5xl items-center justify-between gap-5 font-mono text-sm lg:flex flex-col border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                <p className="w-full">
+                    This exercise is to test your basic javascript skills and react understanding. 
+                    You have to implement a state queue. 
 
-                    Your task is to implement the getFinalState function so that it returns
+                    Your task is to implement the <span className="font-bold">getFinalState</span> function so that it returns
                     the correct result for each of those cases. If you implement it
                     correctly, all four tests should pass.
 
-                    You will receive two arguments: baseState is the initial state (like 0), and
+                    You will receive two arguments: baseState which is the initial state (like 0), and
                     the queue is an array which contains a mix of numbers (like 5) and updater
-                    functions (like n =&gt; n + 1) in the order they were added.
-
+                    functions (like n =&gt; n + 1) in the order they were addeds.
                 </p>
-
+                <p className="w-full">
+                PS: From baseState, apply the state sequentially to get the final value.
+                </p>
             </div>
             <div>
                 <TestCases />
