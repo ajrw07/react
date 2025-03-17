@@ -15,7 +15,7 @@ export default function Test1() {
 
                     You will receive two arguments: baseState which is the initial state (like 0), and
                     the queue is an array which contains a mix of numbers (like 5) and updater
-                    functions (like n =&gt; n + 1) in the order they were addeds.
+                    functions (like n =&gt; n + 1) in the order they were added.
                 </p>
                 <p className="w-full">
                 PS: From baseState, apply the state sequentially to get the final value.
